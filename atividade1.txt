@@ -1,0 +1,105 @@
+P4.26. Qual a utilidade da estrutura de repetição?
+A estrutura de repetição permite que uma seqüência de comandos seja executada repetidamente enquanto uma determinada condição seja satisfeita.
+P4.27. Em que consiste o controle de repetições por contador?
+Quando o número de repetições for previamente conhecido, devemos utilizar um contador para controlar o número de repetições do laço.
+P4.28. Em que consiste o controle de repetições por flag?
+Quando não conhecemos o número de repetições e este for determinado por um valor que será lido (que chamamos de flag).
+P4.29. Faça o acompanhamento da execução do algoritmo abaixo e preencha a Tabela de Variáveis:
+ 				tabela de variáveis  
+ n              l        n#6          saida                               n = 0 	       l = 1	           L =L * (-1) 		2             
+n=1		l= -1	           N =N + 1			
+n=2	       l=1               se L>0	                                                 
+n=3		l= -1                   então escreva n
+n=4		l=1
+n=5		l= -1
+n=6		l=1
+     
+P4.30. Faça um algoritmo que mostre todos os números inteiros de 1 a 50.
+PYTHON)
+numero=1
+while numero>=1 and numero<50:
+	numero=numero+1
+	print(numero)
+ALGORITMICA)
+algoritmo     exibir_numero   
+                      var
+                   numero: inteiro
+inicio
+     numero=1
+     enquanto (numero>=1 e numero<50)faça
+		numero=numero+1
+		escreva numero 
+fim
+P4.31. Faça um algoritmo que mostre todos os números inteiros pares de 2 a 100.
+PYTHON)
+numero=2
+while  numero>=2  and  numero<=50:
+	if numero%2==0:
+		print(numero)
+		numero=numero+1
+	else:
+		numero=numero+1
+algoritmica)
+algoritmo  ler_pares
+            var
+           numero:inteiro
+inicio
+	numero=2
+	enquanto numero>=2  e  numero<=50 faça
+		e se  numero mod 2==0 então
+		escreva  numero
+		numero=numero+1
+	se não:
+		numero=numero+1
+fim
+P4.32. Faça um algoritmo que gere a seguinte série: 10, 20, 30, 40, ..., 990, 1000.
+PYTHON)
+numero=10
+while numero>=10 and numero<=990:
+	numero=numero+10
+	print(numero)
+ALGORITMICA)
+Algoritmo  escala_de_dez
+           Var
+            Numero:inteiro
+inicio
+Numero=10
+Enquanto  numero>=10 e  numero<=990  faça
+	Numero=numero+10
+	escreva(numero)
+fim	
+P4.33. Faça um algoritmo para gerar e exibir os números inteiros de 100 até 1, decrescendo de 1 em 1.
+algoritmica)
+Algoritmo  decrescente 
+             Var
+         Numero=inteiro
+Inicio
+	numero=100
+enquanto  numero>=1 e  numero<=100 faça
+	numero=numero-1
+	escreva (numero)
+P4.34. Faça um algoritmo que leia um número N, some todos os números inteiros de 1 a N, e mostre o resultado obtido.
+PYTHON)
+contador = 1
+numero = int(input("informe um numero--> "))
+somatorio = 0
+while contador <= numero:
+	somatorio = somatorio + contador
+	contador = contador + 1
+print(soma)	
+
+ALGORITMICA)
+Algoritmo  caucular_somatorio
+               Var
+   	 Contador,numero,somatorio:inteiro
+inicio
+contador = 1
+leia numero
+somatorio = 0
+enquanto contador <= numero  faça
+	somatorio = somatorio + contador
+	contador = contador + 1
+escreva (soma)	
+fim.
+
+
